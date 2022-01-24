@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.countdown__wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown__title {
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.countdown__counter{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style-type: none;
+}
+
+.day,.hour,.minute,.second {
+    font-size: 3rem;
+}
+
+.countdown__picture{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;   
+}
+
+.picture {
+    height: 50vh;
+}
+
